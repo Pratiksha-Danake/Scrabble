@@ -1,8 +1,9 @@
 package com.amaap.scrabble.domain;
 
 import com.amaap.scrabble.Multiplier;
-import com.amaap.scrabble.exceptions.InvalidInputWordException;
-import com.amaap.scrabble.validators.InputWordValidator;
+import com.amaap.scrabble.domain.model.ScoreCalculator;
+import com.amaap.scrabble.domain.exceptions.InvalidInputWordException;
+import com.amaap.scrabble.domain.validators.InputWordValidator;
 
 public class Scrabble {
     ScoreCalculator scoreCalculator;
