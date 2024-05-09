@@ -40,4 +40,24 @@ class PointAllocatorTest {
         assertEquals(allocator1.hashCode(), allocator2.hashCode());
         assertNotEquals(allocator1.hashCode(), allocator3.hashCode());
     }
+
+    @Test
+    void shouldBeAbleToAssertEqualityForTwoSameInstances() {
+        // arrange
+        setUpData();
+
+        // act && assert
+        assertEquals(allocator1, allocator2);
+
+    }
+
+    @Test
+    void shouldBeAbleAssertNotEqualsForTwoDifferentInstances() {
+        // arrange
+        setUpData();
+
+        // act && assert
+        assertNotEquals(allocator1, allocator3);
+
+    }
 }

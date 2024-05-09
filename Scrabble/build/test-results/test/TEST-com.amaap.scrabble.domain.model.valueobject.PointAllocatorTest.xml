@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-09T13:07:45" hostname="DESKTOP-GUO1275" time="0.101">
+<testsuite name="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-09T13:12:55" hostname="DESKTOP-GUO1275" time="0.075">
   <properties/>
-  <testcase name="shouldBeAbleToReturnSameAndDifferentHashCodeForSameAndDifferentInstances()" classname="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" time="0.101"/>
+  <testcase name="shouldBeAbleAssertNotEqualsForTwoDifferentInstances()" classname="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" time="0.045"/>
+  <testcase name="shouldBeAbleToAssertEqualityForTwoSameInstances()" classname="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" time="0.01"/>
+  <testcase name="shouldBeAbleToReturnSameAndDifferentHashCodeForSameAndDifferentInstances()" classname="com.amaap.scrabble.domain.model.valueobject.PointAllocatorTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
