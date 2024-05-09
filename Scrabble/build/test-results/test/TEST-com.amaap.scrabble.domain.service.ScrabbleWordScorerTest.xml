@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-09T09:14:51" hostname="DESKTOP-GUO1275" time="0.829">
+<testsuite name="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-05-09T10:16:58" hostname="DESKTOP-GUO1275" time="0.867">
   <properties/>
-  <testcase name="shouldBeAbleToCalculateScoreOfTheWord()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.829"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="shouldAbleToCalculateScoreOfAWordWhereLetterMultiplierIsDoubleAndWordMultiplierIsTriple()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.756"/>
+  <testcase name="shouldAbleToCalculateScoreOfAWordWhereMultiplierForLetterAndWordIsDouble()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.024"/>
+  <testcase name="shouldAbleToCalculateScoreOfAWordWhereMultiplierForLetterAndWordIsTriple()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.02"/>
+  <testcase name="shouldAbleToCalculateScoreForAWordWhereMultiplierForLetterAndWordIsZero()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.02"/>
+  <testcase name="shouldBeAbleToCalculateScoreOfTheWord()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.019"/>
+  <testcase name="shouldAbleToCalculateScoreOfAWordWhereLetterMultiplierIsTripleAndWordMultiplierIsDouble()" classname="com.amaap.scrabble.domain.service.ScrabbleWordScorerTest" time="0.015"/>
+  <system-out><![CDATA[16
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

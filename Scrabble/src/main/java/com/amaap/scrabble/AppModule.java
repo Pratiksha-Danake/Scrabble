@@ -8,8 +8,6 @@ import com.google.inject.Injector;
 import com.google.inject.Provides;
 
 import java.io.FileNotFoundException;
-import java.util.List;
-import java.util.Map;
 
 public class AppModule extends AbstractModule {
 
