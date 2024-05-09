@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amaap.scrabble.io.ConfigFileLoaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-09T07:14:08" hostname="DESKTOP-GUO1275" time="0.675">
+  <properties/>
+  <testcase name="shouldBeAbleToLoadConfigDataFromFile()" classname="com.amaap.scrabble.io.ConfigFileLoaderTest" time="0.675"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
